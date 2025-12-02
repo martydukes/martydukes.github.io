@@ -93,8 +93,11 @@
               </template>
               {{ business.City }} {{ business.State }} {{ business.Zip }}
               <template v-if="business.Country">
-                <br />{{ business.Country }}
+                <br />{{ business.Country }}                
               </template>
+              <template v-if="business.Phone">
+                <div class="phone">{{ business.Phone }}</div> 
+              </template>  
             </template>
           </div>
         </div>
