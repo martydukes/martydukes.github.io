@@ -39,7 +39,8 @@ function addDemo(row) {
       Street2: 'Client.Street2',
       City: 'Client.City',
       State: '.State',
-      Zip: '.Zip'
+      Zip: '.Zip',
+      Phone: '.Phone'
     }
   }
   if (!row.Items) {
